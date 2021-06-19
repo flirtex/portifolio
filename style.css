@@ -51,23 +51,32 @@ a {
 
 .header-content-text p {
     /* font-weight: bold; */
-    font-size: 18pt;
+    font-size: 22pt;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    max-width: 80%;
 }
 
 .header-content-text h1 {
     /* font-weight: bold; */
     font-size: 28pt;
+    text-align: left;
+    color: #fff;
+    max-width: 80%;
+    font-size: 40pt;
+    
 }
 
-.header-content-text p,
+/* .header-content-text p,
 h1 {
     color: #fff;
     /* float: right; */
-    text-align: left;
+    /* text-align: left; */
     /* background-color: black; */
-    margin-bottom: 10px;
-    max-width: 80%;
-}
+    /* margin-bottom: 10px; */
+    /* max-width: 80%; */
+/* } */ 
 
 /* .skills{
     padding: 80px 100px;
@@ -105,8 +114,10 @@ h1 {
 } */
 
 .skills {
+    background-image: url(images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+    background-size: cover;
     padding: 60px 70px 90px 70px;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -127,6 +138,7 @@ h1 {
     border: solid 1px;
     box-shadow: 6px 6px 0px 0px gray;
     padding: 50px;
+    background-color: #fff;
 }
 
 .skills-content h4 {
