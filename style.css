@@ -3,12 +3,22 @@
     padding: 0;
 }
 
-p, h1{
-    font-family: Montserrat, sans-serif;
+p,
+h1,
+h3,
+h4,
+li,
+a {
+    /* font-family: Montserrat, sans-serif; */
+    font-family: Raleway, sans-serif;
+
 }
 
+a {
+    text-decoration: none;
+}
 
-.header{
+.header {
     background-image: url(images/kogu-gu-V3c0uSz13nM-unsplash.jpg);
     background-size: cover;
     min-height: 700px;
@@ -19,37 +29,38 @@ p, h1{
     max-width: 100%;
 }
 
-.header-content{
+.header-content {
     padding: 50px 50px;
     max-width: 80%;
     /* background-color: blue; */
     margin: 100px 0px 100px 100px;
-    
+
 }
 
-.header-content img{
+.header-content img {
     border-radius: 50%;
     /* float: left; */
     margin-left: 50px;
-   
+
 }
 
-.header-content-text{
+.header-content-text {
     /* background-color: cornflowerblue; */
     margin-top: 250px;
 }
 
-.header-content-text p{
-   /* font-weight: bold; */
-   font-size: 18pt;
+.header-content-text p {
+    /* font-weight: bold; */
+    font-size: 18pt;
 }
 
-.header-content-text h1{
+.header-content-text h1 {
     /* font-weight: bold; */
     font-size: 28pt;
- }
+}
 
-.header-content-text p, h1{
+.header-content-text p,
+h1 {
     color: #fff;
     /* float: right; */
     text-align: left;
@@ -58,3 +69,81 @@ p, h1{
     max-width: 80%;
 }
 
+/* .skills{
+    padding: 80px 100px;
+    min-height: 400px;
+    /* display: flex; */
+/* background-color: darkslategrey; */
+/* align-content:space-around; */
+
+
+/* } */
+
+
+/* .skills-soft{
+    border: solid 1px;
+    background-color: darkgreen;
+    float: left;
+    padding: 40px;
+    margin: 40px;
+}
+
+.skills-hard-front{
+    border: solid 1px;
+    background-color: darkmagenta;
+    float: left;
+    padding: 40px;
+    margin: 40px;
+}
+
+.skills-hard-back{
+    border: solid 1px;
+    background-color: darkred;
+    float: left;
+    padding: 40px;
+    margin: 40px;
+} */
+
+.skills {
+    padding: 60px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
+}
+
+.skills h3 {
+    text-align: center;
+    font-size: 35pt;
+    letter-spacing: 8px;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.skills-content {
+    width: 20%;
+    text-align: center;
+    margin: 80px 40px;
+    display: inline-block;
+    vertical-align: top;
+    border: solid 1px;
+    box-shadow: 6px 6px 0px 0px gray;
+    padding: 50px;
+}
+
+.skills-content h4 {
+    margin-bottom: 20px;
+    font-size: 20pt;
+    /* letter-spacing: 5px; */
+    color: dimgrey;
+    font-weight: bold;
+}
+
+.skills-content li {
+    text-align: left;
+    font-size: 16pt;
+    color: dimgrey;
+}
+
+.blogs {
+    clear: both;
+    margin-top: 100px;
+}
