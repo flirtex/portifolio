@@ -2,3 +2,59 @@
     margin: 0;
     padding: 0;
 }
+
+p, h1{
+    font-family: Montserrat, sans-serif;
+}
+
+
+.header{
+    background-image: url(images/kogu-gu-V3c0uSz13nM-unsplash.jpg);
+    background-size: cover;
+    min-height: 700px;
+    filter: brightness(80%);
+    display: flex;
+    justify-content: center;
+    /* background-color: chartreuse; */
+    max-width: 100%;
+}
+
+.header-content{
+    padding: 50px 50px;
+    max-width: 80%;
+    /* background-color: blue; */
+    margin: 100px 0px 100px 100px;
+    
+}
+
+.header-content img{
+    border-radius: 50%;
+    /* float: left; */
+    margin-left: 50px;
+   
+}
+
+.header-content-text{
+    /* background-color: cornflowerblue; */
+    margin-top: 250px;
+}
+
+.header-content-text p{
+   /* font-weight: bold; */
+   font-size: 18pt;
+}
+
+.header-content-text h1{
+    /* font-weight: bold; */
+    font-size: 28pt;
+ }
+
+.header-content-text p, h1{
+    color: #fff;
+    /* float: right; */
+    text-align: left;
+    /* background-color: black; */
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+
